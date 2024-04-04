@@ -25,7 +25,7 @@ parser.add_argument('-benchmark-path', type=str, default='./benchmarked_data/', 
 
 # learning
 parser.add_argument('-lr', type=float, default=0.00001, help='initial learning rate [default: 0.001]')
-parser.add_argument('-epochs', type=int, default=100, help='number of epochs for train [default: 256]')
+parser.add_argument('-epochs', type=int, default=50, help='number of epochs for train [default: 256]')  #changed to 50 from 100 for 1500 records 
 parser.add_argument('-batch-size', type=int, default=32, help='batch size for training [default: 32]')
 parser.add_argument('-log-interval',  type=int, default=1,   help='how many steps to wait before logging training status [default: 1]')
 parser.add_argument('-test-interval', type=int, default=1, help='how many steps to wait before testing [default: 100]')
