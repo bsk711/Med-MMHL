@@ -10,7 +10,7 @@ import re
 
 def read_benchmark_set(save_path):
  
-    tr_sv_path = os.path.join(save_path, 'train1.csv')
+    tr_sv_path = os.path.join(save_path, 'train_1.csv')
     dev_sv_path = os.path.join(save_path, 'dev1.csv')
     te_sv_path = os.path.join(save_path, 'test1.csv')
     
